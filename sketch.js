@@ -85,7 +85,10 @@ function setup(){
 function draw(){
     if(backgroundImg)
     background(backgroundImg);
-    
+    else{
+        background("pink");
+        
+    }
     //background("pink");
     Engine.update(engine);
 
